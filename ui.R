@@ -26,6 +26,9 @@ shinyUI(fluidPage(
     Additionally, Miles per Gallon versus Transmission are presented as points on graph, which is located in the left part of application. 
     Lines represent results of regression modeling. Red line is for Ordinary Regression Model. Blue line is for Robust Regression Model.
     Each line can be shown or hidden using checkbox located in slider area."),
+  tags$a(href="https://github.com/piotrpio2017/Peer-graded-Assignment-Shiny-Application-and-Reproducible-Pitch", "Application server.R and ui.R code on github"),
+  tags$br(),
+  tags$a(href="http://rpubs.com/piotrpio2017/348465", "Reproducible Pitch Presentation about application on rpubs"),
   
   # Main, interactive part of application
   h3("Core application"),
